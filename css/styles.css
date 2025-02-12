@@ -1,0 +1,161 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Light background */
+  }
+  
+  header {
+    background-color: #ffffff; /* White navbar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+    padding: 10px 50px;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .logo h1 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #0056b3; /* Blue color for the logo text */
+  }
+  
+  .logo p {
+    font-size: 12px;
+    color: #666; /* Darker gray for tagline */
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    align-items: center;
+  }
+  
+  .nav-links li {
+    position: relative;
+    margin: 0 15px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #333; /* Dark gray */
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #0056b3; /* Blue hover effect */
+  }
+  
+  /* Updated Dropdown Menu Styling */
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    padding: 10px 0; /* Add some vertical padding for comfort */
+    z-index: 999; /* Ensures the menu appears above other elements */
+  }
+  
+  /* Dropdown menu links */
+  .dropdown-menu li {
+    padding: 10px 20px; /* Add padding for more spacing between items */
+  }
+  
+  /* Adjust dropdown link text */
+  .dropdown-menu a {
+    display: block;
+    color: #333; /* Dark text */
+    font-size: 14px; /* Font size for dropdown items */
+    white-space: nowrap; /* Prevent text from wrapping */
+  }
+  
+  /* Hover effect for dropdown items */
+  .dropdown-menu a:hover {
+    background-color: #f4f4f4; /* Light gray hover effect */
+    color: #0056b3; /* Blue text on hover */
+  }
+  
+  /* Show dropdown on hover */
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  /* Add arrow beside dropdown items */
+  .nav-links .dropdown > a::after {
+    content: "\25BC"; /* Unicode for down arrow */
+    font-size: 12px;
+    color: #333;
+    margin-left: 5px;
+  }
+  
+  /* Rotate arrow on hover */
+  .dropdown:hover > a::after {
+    transform: rotate(180deg); /* Flip the arrow upward */
+    transition: transform 0.3s ease;
+  }
+  
+  /* Donate button styling */
+  .donate-button {
+    background-color: #0056b3; /* Blue background */
+    color: white !important; /* White text */
+    padding: 8px 25px; /* Adjust padding for a balanced button */
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+  }
+  
+  .donate-button:hover {
+    background-color: #003d80; /* Darker blue hover effect */
+    color: white;
+  }
+  
+  /* Add arrow styles for dropdown */
+.nav-links .dropdown > a {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .nav-links .dropdown > a .arrow {
+    font-size: 12px;
+    color: #333;
+    margin-left: 5px; /* Add spacing between the text and arrow */
+    transition: transform 0.3s ease;
+  }
+  
+  /* Rotate the arrow when hovering over dropdowns */
+  .dropdown:hover .arrow {
+    transform: rotate(180deg); /* Flip the arrow upward */
+  }
+  

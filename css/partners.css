@@ -1,0 +1,82 @@
+/* Partner Logos */
+.partner-logos {
+    background: #f8f9fa;
+    padding: 40px 0;
+}
+
+.logo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 30px;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo-grid img {
+    max-width: 200px;
+    height: auto;
+    margin: 0 auto;
+}
+
+/* Committees Section */
+.committees {
+    padding: 40px 0;
+}
+
+.committee-intro {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.committee-intro ul {
+    list-style: none;
+    padding: 20px 0;
+}
+
+.committee-intro li {
+    margin: 10px 0;
+    padding: 10px;
+    background: #e9f0ff;
+    border-radius: 5px;
+}
+
+.cta-button {
+    display: inline-block;
+    background: #0056b3;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 25px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+/* Form Styles */
+.sponsor-form, .partner-form {
+    padding: 40px 0;
+}
+
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.submit-btn {
+    background: #28a745;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}

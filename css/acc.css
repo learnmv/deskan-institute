@@ -1,0 +1,95 @@
+/* Add these styles to your existing CSS */
+.program-stats {
+    background: #f8f9fa;
+    padding: 40px 0;
+}
+
+.program-card {
+    background: white;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 20px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.program-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.program-header i {
+    font-size: 28px;
+    color: #0056b3;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.stat-item {
+    text-align: center;
+    padding: 20px;
+    background: #e9f0ff;
+    border-radius: 8px;
+}
+
+.stat-value {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0056b3;
+}
+
+.stat-label {
+    font-size: 14px;
+    color: #666;
+}
+
+.timeline-item {
+    display: flex;
+    gap: 30px;
+    margin: 30px 0;
+    padding-left: 50px;
+    position: relative;
+}
+
+.timeline-year {
+    width: 80px;
+    font-weight: bold;
+    color: #0056b3;
+}
+
+.timeline-content {
+    flex: 1;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.report-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+}
+
+.report-card {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.download-btn {
+    display: inline-block;
+    background: #0056b3;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-top: 15px;
+}

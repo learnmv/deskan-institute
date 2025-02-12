@@ -1,0 +1,82 @@
+/* Holiday Program Specific Styles */
+.holiday-hero {
+    background: linear-gradient(rgba(0,86,179,0.8), rgba(0,86,179,0.7)),
+                url('holiday-bg.jpg') center/cover;
+}
+
+.history-card {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    margin: 30px 0;
+}
+
+.partner-badges {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.badge {
+    background: #e9f0ff;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-size: 0.9em;
+}
+
+.value-section {
+    margin: 50px 0;
+    background: #f8f9fa;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.need-factors {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.urgent-needs {
+    margin: 50px 0;
+}
+
+.priority-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+}
+
+.priority-card {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.priority-card.critical {
+    border-left: 5px solid #ffc107;
+}
+
+.progress {
+    height: 15px;
+    background: #eee;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+
+.progress-bar {
+    height: 100%;
+    background: #0056b3;
+    border-radius: 10px;
+    color: white;
+    font-size: 12px;
+    text-align: right;
+    padding-right: 5px;
+}
